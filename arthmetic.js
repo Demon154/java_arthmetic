@@ -147,3 +147,11 @@ while (myNumber != Infinity) {
    txt = txt + myNumber + " ";
 }
 console.log(txt)
+//rounding numbers
+// lotsOfDecimal has so many numbers after the decimal
+const lotsOfDecimal = 1.766584958675746364;
+lotsOfDecimal;
+// by toFixed(2) the number will be rounded and there will be 2 numbers after the decimal
+const twoDecimalPlaces = lotsOfDecimal.toFixed(2);
+twoDecimalPlaces;
+console.log(twoDecimalPlaces)
